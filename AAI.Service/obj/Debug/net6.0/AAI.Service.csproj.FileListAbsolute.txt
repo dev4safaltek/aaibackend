@@ -55,22 +55,26 @@ C:\Users\VishalKumar\Downloads\AAI (2)\AAI\AAI.Service\bin\Debug\net6.0\AAI.Serv
 C:\Users\VishalKumar\Downloads\AAI (2)\AAI\AAI.Service\bin\Debug\net6.0\AAI.DataContract.pdb
 C:\Users\VishalKumar\Downloads\AAI (2)\AAI\AAI.Service\obj\Debug\net6.0\AAI.Service.csproj.CopyComplete
 C:\Users\VishalKumar\Downloads\AAI (2)\AAI\AAI.Service\obj\Debug\net6.0\ref\AAI.Service.dll
-C:\AAI\AAI\AAI.Service\bin\Debug\net6.0\AAI.Service.deps.json
-C:\AAI\AAI\AAI.Service\bin\Debug\net6.0\AAI.Service.dll
-C:\AAI\AAI\AAI.Service\bin\Debug\net6.0\AAI.Service.pdb
-C:\AAI\AAI\AAI.Service\bin\Debug\net6.0\AAI.DataContract.dll
-C:\AAI\AAI\AAI.Service\bin\Debug\net6.0\AAI.RepositoryContract.dll
-C:\AAI\AAI\AAI.Service\bin\Debug\net6.0\AAI.ServiceContract.dll
-C:\AAI\AAI\AAI.Service\bin\Debug\net6.0\AAI.RepositoryContract.pdb
-C:\AAI\AAI\AAI.Service\bin\Debug\net6.0\AAI.ServiceContract.pdb
-C:\AAI\AAI\AAI.Service\bin\Debug\net6.0\AAI.DataContract.pdb
 C:\AAI\AAI\AAI.Service\obj\Debug\net6.0\AAI.Service.csproj.AssemblyReference.cache
 C:\AAI\AAI\AAI.Service\obj\Debug\net6.0\AAI.Service.GeneratedMSBuildEditorConfig.editorconfig
 C:\AAI\AAI\AAI.Service\obj\Debug\net6.0\AAI.Service.AssemblyInfoInputs.cache
 C:\AAI\AAI\AAI.Service\obj\Debug\net6.0\AAI.Service.AssemblyInfo.cs
 C:\AAI\AAI\AAI.Service\obj\Debug\net6.0\AAI.Service.csproj.CoreCompileInputs.cache
+C:\AAI\AAI\AAI.Service\bin\Debug\net6.0\AAI.Service.deps.json
+C:\AAI\AAI\AAI.Service\bin\Debug\net6.0\AAI.Service.dll
+C:\AAI\AAI\AAI.Service\bin\Debug\net6.0\AAI.Service.pdb
+C:\AAI\AAI\AAI.Service\bin\Debug\net6.0\AAI.Common.dll
+C:\AAI\AAI\AAI.Service\bin\Debug\net6.0\AAI.DataContract.dll
+C:\AAI\AAI\AAI.Service\bin\Debug\net6.0\AAI.RepositoryContract.dll
+C:\AAI\AAI\AAI.Service\bin\Debug\net6.0\AAI.ServiceContract.dll
+C:\AAI\AAI\AAI.Service\bin\Debug\net6.0\AAI.Common.pdb
+C:\AAI\AAI\AAI.Service\bin\Debug\net6.0\AAI.RepositoryContract.pdb
+C:\AAI\AAI\AAI.Service\bin\Debug\net6.0\AAI.ServiceContract.pdb
+C:\AAI\AAI\AAI.Service\bin\Debug\net6.0\AAI.DataContract.pdb
 C:\AAI\AAI\AAI.Service\obj\Debug\net6.0\AAI.Service.csproj.CopyComplete
 C:\AAI\AAI\AAI.Service\obj\Debug\net6.0\AAI.Service.dll
 C:\AAI\AAI\AAI.Service\obj\Debug\net6.0\refint\AAI.Service.dll
 C:\AAI\AAI\AAI.Service\obj\Debug\net6.0\AAI.Service.pdb
 C:\AAI\AAI\AAI.Service\obj\Debug\net6.0\ref\AAI.Service.dll
+C:\AAI\AAI\AAI.Service\bin\Debug\net6.0\AAI.Repository.dll
+C:\AAI\AAI\AAI.Service\bin\Debug\net6.0\AAI.Repository.pdb

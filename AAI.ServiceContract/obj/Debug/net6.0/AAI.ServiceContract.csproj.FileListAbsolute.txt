@@ -58,3 +58,9 @@ C:\AAI\AAI\AAI.ServiceContract\obj\Debug\net6.0\AAI.ServiceContract.dll
 C:\AAI\AAI\AAI.ServiceContract\obj\Debug\net6.0\refint\AAI.ServiceContract.dll
 C:\AAI\AAI\AAI.ServiceContract\obj\Debug\net6.0\AAI.ServiceContract.pdb
 C:\AAI\AAI\AAI.ServiceContract\obj\Debug\net6.0\ref\AAI.ServiceContract.dll
+C:\AAI\AAI\AAI.ServiceContract\bin\Debug\net6.0\AAI.Common.dll
+C:\AAI\AAI\AAI.ServiceContract\bin\Debug\net6.0\AAI.Repository.dll
+C:\AAI\AAI\AAI.ServiceContract\bin\Debug\net6.0\AAI.RepositoryContract.dll
+C:\AAI\AAI\AAI.ServiceContract\bin\Debug\net6.0\AAI.RepositoryContract.pdb
+C:\AAI\AAI\AAI.ServiceContract\bin\Debug\net6.0\AAI.Repository.pdb
+C:\AAI\AAI\AAI.ServiceContract\bin\Debug\net6.0\AAI.Common.pdb

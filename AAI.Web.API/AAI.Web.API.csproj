@@ -15,6 +15,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
     <PackageReference Include="RestSharp" Version="108.0.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
@@ -23,6 +24,11 @@
     <ProjectReference Include="..\AAI.DataContract\AAI.DataContract.csproj" />
     <ProjectReference Include="..\AAI.ServiceContract\AAI.ServiceContract.csproj" />
     <ProjectReference Include="..\AAI.Service\AAI.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ExceptionLogger\" />
+    <Folder Include="Middlewares\" />
   </ItemGroup>
 
 </Project>

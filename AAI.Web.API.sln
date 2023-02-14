@@ -4,18 +4,39 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AAI.Web.API", "AAI.Web.API\AAI.Web.API.csproj", "{361CD36A-5C3D-499B-914D-98A44B15C3C0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A7C050A1-1124-4982-BEAE-8D1DCF5CE683} = {A7C050A1-1124-4982-BEAE-8D1DCF5CE683}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AAI.Common", "AAI.Common\AAI.Common.csproj", "{A7C050A1-1124-4982-BEAE-8D1DCF5CE683}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AAI.Common", "AAI.Common\AAI.Common.csproj", "{A7C050A1-1124-4982-BEAE-8D1DCF5CE683}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A6091358-42CD-47CB-879B-FA8D47286453} = {A6091358-42CD-47CB-879B-FA8D47286453}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AAI.DataContract", "AAI.DataContract\AAI.DataContract.csproj", "{A6091358-42CD-47CB-879B-FA8D47286453}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AAI.DataContract", "AAI.DataContract\AAI.DataContract.csproj", "{A6091358-42CD-47CB-879B-FA8D47286453}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AAI.Repository", "AAI.Repository\AAI.Repository.csproj", "{E8F8DBE6-C379-452D-A7B2-8B73AAB27656}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AAI.Repository", "AAI.Repository\AAI.Repository.csproj", "{E8F8DBE6-C379-452D-A7B2-8B73AAB27656}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A7C050A1-1124-4982-BEAE-8D1DCF5CE683} = {A7C050A1-1124-4982-BEAE-8D1DCF5CE683}
+		{EB7EDAA6-27C6-454A-AECD-0E4AC801044C} = {EB7EDAA6-27C6-454A-AECD-0E4AC801044C}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AAI.RepositoryContract", "AAI.RepositoryContract\AAI.RepositoryContract.csproj", "{EB7EDAA6-27C6-454A-AECD-0E4AC801044C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AAI.RepositoryContract", "AAI.RepositoryContract\AAI.RepositoryContract.csproj", "{EB7EDAA6-27C6-454A-AECD-0E4AC801044C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A7C050A1-1124-4982-BEAE-8D1DCF5CE683} = {A7C050A1-1124-4982-BEAE-8D1DCF5CE683}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AAI.Service", "AAI.Service\AAI.Service.csproj", "{9BD8DE4E-AD4D-4B05-80E2-E784D45E595B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AAI.Service", "AAI.Service\AAI.Service.csproj", "{9BD8DE4E-AD4D-4B05-80E2-E784D45E595B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A6091358-42CD-47CB-879B-FA8D47286453} = {A6091358-42CD-47CB-879B-FA8D47286453}
+		{A7C050A1-1124-4982-BEAE-8D1DCF5CE683} = {A7C050A1-1124-4982-BEAE-8D1DCF5CE683}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AAI.ServiceContract", "AAI.ServiceContract\AAI.ServiceContract.csproj", "{351C5925-EBE2-4C0E-A5C2-CCD46182ACE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AAI.ServiceContract", "AAI.ServiceContract\AAI.ServiceContract.csproj", "{351C5925-EBE2-4C0E-A5C2-CCD46182ACE2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E8F8DBE6-C379-452D-A7B2-8B73AAB27656} = {E8F8DBE6-C379-452D-A7B2-8B73AAB27656}
+		{EB7EDAA6-27C6-454A-AECD-0E4AC801044C} = {EB7EDAA6-27C6-454A-AECD-0E4AC801044C}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

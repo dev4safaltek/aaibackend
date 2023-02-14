@@ -37,6 +37,6 @@ namespace AAI.DataContract.Common
 
         [JsonProperty("Data")]
         [DataMember(Name = "Data")]
-        public string Data { get; set; }
+        public object Data { get; set; }
     }
 }
