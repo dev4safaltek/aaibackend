@@ -37,11 +37,16 @@ C:\Users\VishalKumar\Downloads\AAI (2)\AAI\AAI.Repository\obj\Debug\net6.0\ref\A
 C:\AAI\AAI\AAI.Repository\bin\Debug\net6.0\AAI.Repository.deps.json
 C:\AAI\AAI\AAI.Repository\bin\Debug\net6.0\AAI.Repository.dll
 C:\AAI\AAI\AAI.Repository\bin\Debug\net6.0\AAI.Repository.pdb
+C:\AAI\AAI\AAI.Repository\bin\Debug\net6.0\AAI.Common.dll
+C:\AAI\AAI\AAI.Repository\bin\Debug\net6.0\AAI.DataContract.dll
+C:\AAI\AAI\AAI.Repository\bin\Debug\net6.0\AAI.Common.pdb
+C:\AAI\AAI\AAI.Repository\bin\Debug\net6.0\AAI.DataContract.pdb
 C:\AAI\AAI\AAI.Repository\obj\Debug\net6.0\AAI.Repository.csproj.AssemblyReference.cache
 C:\AAI\AAI\AAI.Repository\obj\Debug\net6.0\AAI.Repository.GeneratedMSBuildEditorConfig.editorconfig
 C:\AAI\AAI\AAI.Repository\obj\Debug\net6.0\AAI.Repository.AssemblyInfoInputs.cache
 C:\AAI\AAI\AAI.Repository\obj\Debug\net6.0\AAI.Repository.AssemblyInfo.cs
 C:\AAI\AAI\AAI.Repository\obj\Debug\net6.0\AAI.Repository.csproj.CoreCompileInputs.cache
+C:\AAI\AAI\AAI.Repository\obj\Debug\net6.0\AAI.Repository.csproj.CopyComplete
 C:\AAI\AAI\AAI.Repository\obj\Debug\net6.0\AAI.Repository.dll
 C:\AAI\AAI\AAI.Repository\obj\Debug\net6.0\refint\AAI.Repository.dll
 C:\AAI\AAI\AAI.Repository\obj\Debug\net6.0\AAI.Repository.pdb

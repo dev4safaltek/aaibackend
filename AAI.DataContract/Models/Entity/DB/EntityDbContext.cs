@@ -18,8 +18,17 @@ namespace AAI.DataContract.Models.Entity.DB
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
-            base.OnModelCreating(builder);
+           // base.OnModelCreating(builder);
+           // builder.Entity<Users>().HasOne(x => x.UserId);
+            builder.Entity<Users>().HasKey(x => x.UserId);
+
+            //builder.Entity<Users>(entity =>
+            //{
+            //    entity.Property(e => e.UserId).HasDefaultValueSql("(newsequentialid())");
+
+            //});
         }
+        
 
         //public virtual DbSet<AAI_ActSection> AAI_ActSection { get; set; }
         //public virtual DbSet<AAI_Allocations> AAI_Allocations { get; set; }
@@ -32,6 +41,6 @@ namespace AAI.DataContract.Models.Entity.DB
         //public virtual DbSet<Switchboard_Items> Switchboard_Items { get; set; }
         //public virtual DbSet<Users> Users { get; set; }
 
-        public virtual DbSet<User1> User1 { get; set; }
+        public virtual DbSet<Users> Users { get; set; }
     }
 }

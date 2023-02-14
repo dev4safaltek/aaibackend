@@ -6,7 +6,7 @@ namespace AAI.DataContract.Models.Login
 {
     public class LoginInputApiModel
     {
-        public string email { get; set; }
+        public string Email { get; set; }
         public string Password { get; set; }
     }
 }

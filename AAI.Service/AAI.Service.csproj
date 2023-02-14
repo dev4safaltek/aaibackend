@@ -7,6 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="LoginService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AAI.Common\AAI.Common.csproj" />
     <ProjectReference Include="..\AAI.RepositoryContract\AAI.RepositoryContract.csproj" />
     <ProjectReference Include="..\AAI.ServiceContract\AAI.ServiceContract.csproj" />
   </ItemGroup>

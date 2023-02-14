@@ -7,12 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Login\**" />
-    <EmbeddedResource Remove="Login\**" />
-    <None Remove="Login\**" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\AAI.DataContract\AAI.DataContract.csproj" />
   </ItemGroup>
 

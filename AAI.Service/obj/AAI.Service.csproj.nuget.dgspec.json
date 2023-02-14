@@ -4,6 +4,66 @@
     "C:\\AAI\\AAI\\AAI.Service\\AAI.Service.csproj": {}
   },
   "projects": {
+    "C:\\AAI\\AAI\\AAI.Common\\AAI.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\AAI\\AAI\\AAI.Common\\AAI.Common.csproj",
+        "projectName": "AAI.Common",
+        "projectPath": "C:\\AAI\\AAI\\AAI.Common\\AAI.Common.csproj",
+        "packagesPath": "C:\\Users\\VishalKumar\\.nuget\\packages\\",
+        "outputPath": "C:\\AAI\\AAI\\AAI.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\VishalKumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\AAI\\AAI\\AAI.DataContract\\AAI.DataContract.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -164,6 +224,87 @@
         }
       }
     },
+    "C:\\AAI\\AAI\\AAI.Repository\\AAI.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\AAI\\AAI\\AAI.Repository\\AAI.Repository.csproj",
+        "projectName": "AAI.Repository",
+        "projectPath": "C:\\AAI\\AAI\\AAI.Repository\\AAI.Repository.csproj",
+        "packagesPath": "C:\\Users\\VishalKumar\\.nuget\\packages\\",
+        "outputPath": "C:\\AAI\\AAI\\AAI.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\VishalKumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\AAI\\AAI\\AAI.Common\\AAI.Common.csproj": {
+                "projectPath": "C:\\AAI\\AAI\\AAI.Common\\AAI.Common.csproj"
+              },
+              "C:\\AAI\\AAI\\AAI.DataContract\\AAI.DataContract.csproj": {
+                "projectPath": "C:\\AAI\\AAI\\AAI.DataContract\\AAI.DataContract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\AAI\\AAI\\AAI.ServiceContract\\AAI.ServiceContract.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -195,6 +336,12 @@
             "projectReferences": {
               "C:\\AAI\\AAI\\AAI.DataContract\\AAI.DataContract.csproj": {
                 "projectPath": "C:\\AAI\\AAI\\AAI.DataContract\\AAI.DataContract.csproj"
+              },
+              "C:\\AAI\\AAI\\AAI.RepositoryContract\\AAI.RepositoryContract.csproj": {
+                "projectPath": "C:\\AAI\\AAI\\AAI.RepositoryContract\\AAI.RepositoryContract.csproj"
+              },
+              "C:\\AAI\\AAI\\AAI.Repository\\AAI.Repository.csproj": {
+                "projectPath": "C:\\AAI\\AAI\\AAI.Repository\\AAI.Repository.csproj"
               }
             }
           }
@@ -257,6 +404,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\AAI\\AAI\\AAI.Common\\AAI.Common.csproj": {
+                "projectPath": "C:\\AAI\\AAI\\AAI.Common\\AAI.Common.csproj"
+              },
               "C:\\AAI\\AAI\\AAI.RepositoryContract\\AAI.RepositoryContract.csproj": {
                 "projectPath": "C:\\AAI\\AAI\\AAI.RepositoryContract\\AAI.RepositoryContract.csproj"
               },
@@ -275,6 +425,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
